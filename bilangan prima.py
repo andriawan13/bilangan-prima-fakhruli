@@ -1,5 +1,5 @@
 def bilPrima(s):
-    for i in range(2,s):
+    for i in range(2,s+1):
         a = 0
         for j in range(1,i):
             if a > 1:
